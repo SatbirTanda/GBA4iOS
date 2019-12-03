@@ -18,6 +18,7 @@
 #import "GBAEventDistributionOperation.h"
 #import "GBALinkManager.h"
 #import "GBASyncManager.h"
+#import "GBAProxyManager.h"
 
 #import "SSZipArchive.h"
 #import <ObjectiveDropboxOfficial/ObjectiveDropboxOfficial.h>
@@ -137,6 +138,8 @@ static GBAAppDelegate *_appDelegate;
     [self.window makeKeyAndVisible];
     
     [self.emulationViewController showSplashScreen];
+
+    [[GBAProxyManager sharedInstance] connect];
     
     return YES;
 }

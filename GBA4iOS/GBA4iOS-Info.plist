@@ -140,6 +140,11 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>2.1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>dbapi-8-emm</string>
+		<string>dbapi-2</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -149,6 +154,7 @@
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>external-accessory</string>
 		<string>fetch</string>
 	</array>
 	<key>UIFileSharingEnabled</key>
@@ -169,9 +175,7 @@
 	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -180,12 +184,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>UIViewGroupOpacity</key>
 	<false/>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>
@@ -284,10 +288,40 @@
 			</dict>
 		</dict>
 	</array>
-	<key>LSApplicationQueriesSchemes</key>
-	<array>
-		<string>dbapi-8-emm</string>
-		<string>dbapi-2</string>
-	</array>
+    <key>UISupportedExternalAccessoryProtocols</key>
+    <array>
+    <string>com.smartdevicelink.prot29</string>
+    <string>com.smartdevicelink.prot28</string>
+    <string>com.smartdevicelink.prot27</string>
+    <string>com.smartdevicelink.prot26</string>
+    <string>com.smartdevicelink.prot25</string>
+    <string>com.smartdevicelink.prot24</string>
+    <string>com.smartdevicelink.prot23</string>
+    <string>com.smartdevicelink.prot22</string>
+    <string>com.smartdevicelink.prot21</string>
+    <string>com.smartdevicelink.prot20</string>
+    <string>com.smartdevicelink.prot19</string>
+    <string>com.smartdevicelink.prot18</string>
+    <string>com.smartdevicelink.prot17</string>
+    <string>com.smartdevicelink.prot16</string>
+    <string>com.smartdevicelink.prot15</string>
+    <string>com.smartdevicelink.prot14</string>
+    <string>com.smartdevicelink.prot13</string>
+    <string>com.smartdevicelink.prot12</string>
+    <string>com.smartdevicelink.prot11</string>
+    <string>com.smartdevicelink.prot10</string>
+    <string>com.smartdevicelink.prot9</string>
+    <string>com.smartdevicelink.prot8</string>
+    <string>com.smartdevicelink.prot7</string>
+    <string>com.smartdevicelink.prot6</string>
+    <string>com.smartdevicelink.prot5</string>
+    <string>com.smartdevicelink.prot4</string>
+    <string>com.smartdevicelink.prot3</string>
+    <string>com.smartdevicelink.prot2</string>
+    <string>com.smartdevicelink.prot1</string>
+    <string>com.smartdevicelink.prot0</string>
+    <string>com.smartdevicelink.multisession</string>
+    <string>com.ford.sync.prot0</string>
+    </array>
 </dict>
 </plist>
